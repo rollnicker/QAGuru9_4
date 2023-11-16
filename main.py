@@ -93,7 +93,7 @@ def test_dicts():
     # TODO создайте словарь
     ziped = zip(first, second)
     d = dict(ziped)
-    print(d)
+    print(d.values())
 
     assert isinstance(d, dict)
     assert len(d) == 5
