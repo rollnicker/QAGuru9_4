@@ -61,7 +61,7 @@ def test_random_list():
         m = random.randint(0, 101)
         x = x + 1
         l.insert(x, m)
-        l.sort()
+    l.sort()
     assert len(l) == 10
     assert l[0] < l[-1]
 
